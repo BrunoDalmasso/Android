@@ -16,15 +16,16 @@ public class MainActivity extends AppCompatActivity {
         imgPessoa = findViewById(R.id.imgPessoa);
     }
 
-    public void pessoa01(View view) {
-        imgPessoa.setImageResource(R.drawable.p1);
-    }
-
-    public void pessoa02(View view) {
-        imgPessoa.setImageResource(R.drawable.p2);
-    }
-
-    public void pessoa03(View view) {
-        imgPessoa.setImageResource(R.drawable.p3);
+    public void alterarPessoa(View view) {
+        switch (view.getId()) {
+            case R.id.btnPessoa01:
+                imgPessoa.setImageResource(R.drawable.p1);
+                break;
+            case R.id.btnPessoa02:
+                imgPessoa.setImageResource(R.drawable.p2);
+                break;
+            default:
+                imgPessoa.setImageResource(R.drawable.p3);
+        }
     }
 }

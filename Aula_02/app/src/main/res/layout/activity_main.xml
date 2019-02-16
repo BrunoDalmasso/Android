@@ -13,21 +13,24 @@
         android:id="@+id/imgPessoa" />
 
     <Button
+        android:id="@+id/btnPessoa01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pessoa 01"
-        android:onClick="pessoa01" />
+        android:onClick="alterarPessoa" />
 
     <Button
+        android:id="@+id/btnPessoa02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pessoa 02"
-        android:onClick="pessoa02" />
+        android:onClick="alterarPessoa" />
 
     <Button
+        android:id="@+id/btnPessoa03"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pessoa 03"
-        android:onClick="pessoa03"/>
+        android:onClick="alterarPessoa"/>
 
 </LinearLayout>
