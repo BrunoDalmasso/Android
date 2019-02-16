@@ -1,0 +1,48 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogo de Dados"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imgDado1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/d0" />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Jogador 1"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/imgDado2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/d0"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Jogador 2"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Role os Dados"
+        android:layout_margin="18dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="rolarDados" />
+
+</LinearLayout>
