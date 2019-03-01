@@ -9,33 +9,38 @@
         android:layout_height="wrap_content"
         android:text="Jogo de Dados"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="#F00"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imgDado1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/d0" />
+
     <TextView
-        android:layout_width="80dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Jogador 1"
-        android:layout_gravity="center_horizontal"/>
+        android:textAlignment="center" />
 
     <ImageView
         android:id="@+id/imgDado2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="14dp"
-        android:src="@drawable/d0"/>
+        android:layout_marginTop="8dp"
+        android:src="@drawable/d0" />
+
     <TextView
-        android:layout_width="80dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Jogador 2"
-        android:layout_gravity="center_horizontal"/>
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="150dp"
