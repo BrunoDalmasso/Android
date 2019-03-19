@@ -1,0 +1,4 @@
+#Fri Mar 01 20:58:51 BRT 2019
+base.0=C\:\\Desenvolvimento\\Fiap\\Android\\Android\\Aula_03_Desafio\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
